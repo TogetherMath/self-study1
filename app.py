@@ -15,8 +15,8 @@ number = st.number_input(
 
 st.subheader("계산 결과")
 
-st.write("제곱:", number ** 2)
-st.write("세제곱:", number ** 3)
+st.write("제곱:, {number ** 2:.3f}")
+st.write("세제곱:, {number ** 3:.4f}")
 
 if st.button("인사하기"):
     st.success("수학 실험실에 오신 것을 환영합니다!")
