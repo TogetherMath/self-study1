@@ -20,3 +20,6 @@ st.write(f"세제곱: {number ** 3:.4f}")
 
 if st.button("인사하기"):
     st.success("수학 실험실에 오신 것을 환영합니다!")
+
+if st.button("안녕하세요 출력"):
+    st.write("안녕하세요")
